@@ -4,7 +4,7 @@ package src;
 
 public class FibonacciSeries{
     private static int result;
-    private static int noOfInt=7;
+    private static int noOfInt=11;
     public static void main(String[] args){
 //        System.out.println(getFibonacciSeries(noOfInt));
         getFibonacciSeries(noOfInt);

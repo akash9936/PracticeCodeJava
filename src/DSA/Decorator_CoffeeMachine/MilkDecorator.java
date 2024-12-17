@@ -1,19 +1,19 @@
 package src.DSA.Decorator_CoffeeMachine;
 
-public class MilkDecorator extends CoffeeDecorator{
+// Concrete Decorator for adding Milk
+public class MilkDecorator extends CoffeeDecorator {
 
-     public MilkDecorator(Coffee coffee){
-         super(coffee);
-     }
+    public MilkDecorator(Coffee coffee) {
+        super(coffee);
+    }
 
     @Override
     public String getDesc() {
-        return coffee.getDesc()+" ,Added Milk";
+        return super.getDesc() + ", Milk Added";
     }
 
     @Override
     public double getPrice() {
-
-         return coffee.getPrice()+ 1.00;
+        return super.getPrice() + 1.0; // Additional cost for Milk
     }
 }

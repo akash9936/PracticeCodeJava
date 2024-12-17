@@ -5,7 +5,7 @@
 //        Input: nums = [1,2,2,3,3,3], k = 2
 //        Output: [2,3]
 
-package src;
+package src.Problems.HasMap;
 
 import java.util.HashMap;
 public class TopKElementsinList {
